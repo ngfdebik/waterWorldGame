@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bqq448ds8kd1f"]
+
+[ext_resource type="PackedScene" uid="uid://pxvlvhe2t6hm" path="res://waterBlock.tscn" id="1_ig7tw"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="WaterBlock" parent="." instance=ExtResource("1_ig7tw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.2738303, 0, 0.23015761)
